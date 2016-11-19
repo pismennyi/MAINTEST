@@ -235,7 +235,13 @@ header {
     text-transform: uppercase;
     font-size: 24px;
     display: block;
-    margin: 80px auto; }
+    margin: 80px auto;
+    cursor: pointer;
+    outline: none; }
+    .work__button-one:hover {
+      border: 3px solid #000000;
+      background: #000000;
+      color: #ffffff; }
 
 .planet {
   background-position: center;
