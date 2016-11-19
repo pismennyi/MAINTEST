@@ -1,0 +1,44 @@
+.dolore {
+    width: 100%;
+    background-image: url("../img/dolore-bac.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__all {
+        position: relative;
+        color: #ffffff;
+    }
+
+    &__text {
+        width: 50%;
+        padding-top: 160px;
+        padding-bottom: 115px;
+    }
+
+    &__text-title {
+        font-size: 45px;
+        text-transform: uppercase;
+        margin-bottom: 7px;
+    }
+
+    &__text-description {
+        font-size: 22px;
+        line-height: 28px;
+        width: 95%;
+        font-weight: 300;
+        margin-bottom: 61px;
+    }
+
+    &__text-link {
+        font-size: 18px;
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    &__img {
+        position: absolute;
+        right: 98px;
+        bottom: -3px;
+    }
+}

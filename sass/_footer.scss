@@ -1,0 +1,221 @@
+.footer {
+    background-image: url("../img/bg-footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+    color: #ffffff;
+
+    &__title {
+        font-size: 35px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 110px;
+    }
+
+    &__social {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 65px;
+    }
+
+    &__line {
+        margin: 70px auto;
+        background: #ffffff;
+        width: 82px;
+        height: 2px;
+        display: block;
+        margin-bottom: 70px;
+        background-image: url("../img/head-line.svg");
+    }
+
+    &__social-one {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    &__form {
+        text-align: center;
+    }
+
+    &__form-name {
+        margin: 0 30px;
+        width: 25.6%;
+        height: 50px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #afafaf;
+        color: #ffffff;
+        font-size: 20px;
+        outline: none;
+    }
+
+    &__form-mail {
+        margin: 0 30px;
+        width: 25.6%;
+        height: 50px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #afafaf;
+        color: #ffffff;
+        font-size: 20px;
+        outline: none;
+    }
+
+    &__form-text {
+        padding-top: 83px;
+        width: 56.7%;
+        height: 50px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #afafaf;
+        color: #ffffff;
+        font-size: 20px;
+        outline: none;
+        margin-bottom: 51px;
+    }
+}
+
+.tw {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 24px;
+    height: 19.5px;
+    background-image: url("../img/tw.svg");
+}
+
+.in {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 24px;
+    height: 19.5px;
+    background-image: url("../img/in.svg");
+}
+
+.fb {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 24px;
+    height: 19.5px;
+    background-image: url("../img/fb.svg");
+}
+
+.vi {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 24px;
+    height: 19.5px;
+    background-image: url("../img/vi.svg");
+}
+
+.be {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 24px;
+    height: 19.5px;
+    background-image: url("../img/be.svg");
+}
+
+input::-webkit-input-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+    color: #676767;
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+input::-moz-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+    color: #676767;
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+input:-moz-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+    color: #676767;
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+input:-ms-input-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+    color: #676767;
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+input:focus::-webkit-input-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+    color: #676767;
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+input:focus::-moz-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+    color: #676767;
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+input:focus:-moz-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+    color: #676767;
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+input:focus:-ms-input-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+    color: #676767;
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.footer__form-button {
+    width: 185px;
+    height: 54px;
+    border: 3px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    outline: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+    cursor: pointer;
+
+    &:hover {
+        border: 3px solid #ffffff;
+        background: #ffffff;
+        color: #000000;
+    }
+}

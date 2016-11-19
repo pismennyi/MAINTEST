@@ -1,0 +1,67 @@
+.services {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.section-title {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 103px;
+}
+
+.section-line {
+    margin: 0 auto;
+    width: 82px;
+    height: 2px;
+    display: block;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    background-image: url("../img/line-ser.svg");
+}
+
+.services-all {
+    display: flex;
+}
+.services-column {
+  text-align: center;
+  margin-bottom: 147px;
+  &__img-phone {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 132px;
+    display: block;
+    background-image: url("../img/phone.svg");
+    margin: 0 auto 42px auto;
+  }
+  &__img-desktop {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 191.907px;
+    height: 148.06px;
+    display: block;
+    background-image: url("../img/desktop.svg");
+    margin: 0 auto 26px auto;
+  }
+  &__img-ok {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 116px;
+    height: 116px;
+    display: block;
+    background-image: url("../img/ok.svg");
+    margin: 23px auto 35px auto;
+  }
+  &__name {
+    font-size: 24px;
+  }
+  &__description {
+    margin: 0 25px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
